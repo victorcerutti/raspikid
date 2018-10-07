@@ -1,6 +1,13 @@
 
 ![raspikid](https://raw.githubusercontent.com/victorcerutti/raspikid/master/raspikid.png)
 
+# :heavy_exclamation_mark: Important notice
+This is still alpha. It may work but still need some work and debug.
+
+The documentation is only a draft at this time.
+
+If you feel adventurous, don't hesitate to play and contribute.
+
 # What is it ?
 Raspikid is a simple python script that plays video on a raspberry pi.
 
