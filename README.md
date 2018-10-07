@@ -1,2 +1,1 @@
-# raspikid
-Simple entertainment system for your child
+![raspikid](https://raw.githubusercontent.com/victorcerutti/raspikid/master/raspikid.png)
