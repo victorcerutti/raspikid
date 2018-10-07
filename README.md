@@ -14,7 +14,7 @@ This allow a young child to have an easily portable media player that can connec
 - easy usage control for parents
 - may develop will to learn how to hack it
 
-#How to install
+# How to install
 Follow raspbian installation.
 After a fresh install, run boostrap.sh
 
@@ -24,6 +24,11 @@ After a fresh install, run boostrap.sh
 3. Generate the barcode with an online generator (ex: https://barcode.tec-it.com/en/Code128?data=BUNNY)
 4. Save and print the image. Be creative !
 5. It should now work !
+
+# Usage
+The program should start after booting the raspberry.
+You can use simple barcode command as input to PAUSE or STOP the movie.
+You can also send SHUTDOWN to close the app and shut the pi down.
 
 # Credits
 
