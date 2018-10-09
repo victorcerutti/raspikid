@@ -9,6 +9,10 @@ sudo apt-get install python3-pygame
 sudo apt-get install -y libdbus-1{,-dev}
 pip3 install omxplayer-wrapper
 
+#clone and install this repository
+cd ~
+git clone https://github.com/victorcerutti/raspikid
+
 #launch script after boot
 sed -i "/.*raspikid-launch.*/d" ~/.bashrc
 echo 'cd ~/raspikid && python3 app.py #raspikid-launch' >> ~/.bashrc
