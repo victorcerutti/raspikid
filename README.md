@@ -29,8 +29,9 @@ If you need to activate SSH and configure wifi, follow [this instructions](https
 
 After a fresh install, boot the rasppberry, and either connect it to a screen+keyboard or via SSH.
 
-Now, run boostrap.sh, you are all set !
-
+```
+curl -sL https://victorcerutti.github.io/raspikid/install.sh | sh
+```
 
 # How to configure
 1. Add movies to the movies directory (ex: BigBuckBunny.mp4)
