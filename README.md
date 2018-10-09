@@ -20,10 +20,18 @@ This allow a young child to have an easily portable media player that can connec
 - physical content of media
 - easy usage control for parents
 - may develop will to learn how to hack it
+- distraction free (no ads, no push of other content like youtube/netflix)
 
 # How to install
-Follow raspbian installation.
-After a fresh install, run boostrap.sh
+### Brand new raspberry
+Download raspbian lite and follow the installation guide [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+
+If you need to activate SSH and configure wifi, follow [this instructions](https://www.raspberrypi.org/forums/viewtopic.php?t=191252).
+
+After a fresh install, boot the rasppberry, and either connect it to a screen+keyboard or via SSH.
+
+Run boostrap.sh, you are all set !
+
 
 # How to
 1. Add movies to the movies directory (ex: BigBuckBunny.mp4)
