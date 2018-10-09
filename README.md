@@ -23,17 +23,16 @@ This allow a young child to have an easily portable media player that can connec
 - distraction free (no ads, no push of other content like youtube/netflix)
 
 # How to install
-### Brand new raspberry
 Download raspbian lite and follow the installation guide [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
 If you need to activate SSH and configure wifi, follow [this instructions](https://www.raspberrypi.org/forums/viewtopic.php?t=191252).
 
 After a fresh install, boot the rasppberry, and either connect it to a screen+keyboard or via SSH.
 
-Run boostrap.sh, you are all set !
+Now, run boostrap.sh, you are all set !
 
 
-# How to
+# How to configure
 1. Add movies to the movies directory (ex: BigBuckBunny.mp4)
 2. Reference the with a short code (used for the barcode) in movies.txt (ex: BUNNY)
 3. Generate the barcode with an online generator (ex: https://barcode.tec-it.com/en/Code128?data=BUNNY)
