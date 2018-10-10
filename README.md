@@ -23,6 +23,7 @@ This allow a young child to have an easily portable media player that can connec
 - distraction free (no ads, no push of other content like youtube/netflix)
 
 # How to install
+>You will need of course a raspberry, a micro SD card and a barcode reader (I use [this one](https://www.amazon.fr/Proster-Lecteur-Code-Barres-Scanner-Automatique/dp/B00Y83TXOE/))
 1. Download raspbian lite and follow the installation guide [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 2. If you need to activate SSH and configure wifi, follow [this instructions](https://www.raspberrypi.org/forums/viewtopic.php?t=191252).
 3. After a fresh install, boot the rasppberry, and either connect it to a screen+keyboard or via SSH.
