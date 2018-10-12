@@ -13,6 +13,10 @@ pip3 install omxplayer-wrapper
 cd ~
 git clone https://github.com/victorcerutti/raspikid
 
+#copy exemple and initiate movies.txt
+cp raspikid/exemple/BigBuckBunny.mp4 raspikid/movies/
+cp raspikid/exemple/movies.txt raspikid/
+
 #launch script after boot
 sed -i "/.*raspikid-launch.*/d" ~/.bashrc
 echo 'cd ~/raspikid && python3 app.py #raspikid-launch' >> ~/.bashrc
