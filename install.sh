@@ -1,12 +1,13 @@
-sudo apt-get install omxplayer
-sudo apt-get install python3-pip
+sudo apt-get update
+sudo apt-get -y install omxplayer
+sudo apt-get -y install python3-pip
 #sudo apt install libsdl1.2-dev
 #pip3 install pygame
-sudo apt-get install python3-pygame
+sudo apt-get -y install python3-pygame
 
 
 #see http://python-omxplayer-wrapper.readthedocs.io/en/latest/
-sudo apt-get install -y libdbus-1{,-dev}
+sudo apt-get -y install -y libdbus-1{,-dev}
 pip3 install omxplayer-wrapper
 
 #clone and install this repository
