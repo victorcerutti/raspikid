@@ -22,6 +22,7 @@ sudo apt-get -y install git
 git clone https://github.com/victorcerutti/raspikid
 
 #copy exemple and initiate movies.txt
+mkdir raspikid/movies/
 cp raspikid/exemple/BigBuckBunny.mp4 raspikid/movies/
 cp raspikid/exemple/movies.txt raspikid/
 
