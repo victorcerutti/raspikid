@@ -34,7 +34,7 @@ curl -sL https://victorcerutti.github.io/raspikid/install.sh | sh
 
 # How to configure (parents)
 1. Add movies to the movies directory (ex: BigBuckBunny.mp4)
-2. Reference the with a short code (used for the barcode) in movies.txt (ex: BUNNY)
+2. Reference them with a short code (used for the barcode) in movies.txt (ex: BUNNY)
 3. Generate the barcode with an online generator (ex: https://barcode.tec-it.com/en/Code128?data=BUNNY)
 4. Save and print the image. Be creative !
 5. Also print some simple PAUSE, STOP and SHUTDOWN barcode (TODO: provide them)
