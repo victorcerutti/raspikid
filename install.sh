@@ -25,6 +25,11 @@ mkdir raspikid/movies/
 cp raspikid/exemple/BigBuckBunny.mp4 raspikid/movies/
 cp raspikid/exemple/movies.txt raspikid/
 
+#set hostname to resolve raspikid.local
+sudo echo 'raspikid' > /etc/hostname
+sudo /etc/init.d/hostname.sh
+sudo apt-get install avahi-daemon
+
 #set propre font size for TV screen
 sudo sed -i '/FONTFACE=/c\FONTFACE="Terminus"' /etc/default/console-setup
 sudo sed -i '/FONTSIZE=/c\FONTSIZE="16x32"' /etc/default/console-setup
@@ -32,6 +37,9 @@ sudo sed -i '/FONTSIZE=/c\FONTSIZE="16x32"' /etc/default/console-setup
 #launch script after boot
 sed -i "/.*raspikid-launch.*/d" ~/.bashrc
 echo 'cd ~/raspikid && python3 app.py #raspikid-launch' >> ~/.bashrc
+
+#it's all set: reboot raspberry
+#sudo reboot
 
 }
 run
