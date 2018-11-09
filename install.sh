@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 run() {
@@ -26,7 +26,7 @@ cp raspikid/exemple/BigBuckBunny.mp4 raspikid/movies/
 cp raspikid/exemple/movies.txt raspikid/
 
 #set hostname to resolve raspikid.local
-sudo echo 'raspikid' > /etc/hostname
+echo 'raspikid' | sudo tee -a /etc/hostname > /dev/null
 sudo /etc/init.d/hostname.sh
 sudo apt-get install avahi-daemon
 
