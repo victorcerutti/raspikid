@@ -95,7 +95,11 @@ while True:
 					print("")
 
 				movie = ("./movies/"+datas[1])
-				player = OMXPlayer(movie)
+
+				try:
+					player = OMXPlayer(movie)
+				except:
+					print("Error while playing movie")
 
 
 		# no available barcode
